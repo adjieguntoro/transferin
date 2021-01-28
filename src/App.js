@@ -47,23 +47,28 @@ function App() {
                 <div className="grid grid-cols-6 gap-6">
 
                   <div className="col-span-6">
-                    <label for="street_address" className="block text-sm font-medium text-gray-700">No Rekening</label>
-                    <input inputmode="numeric" pattern="[0-9]*" type="text" name="street_address" id="street_address" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                    <label for="no_rekening" className="block text-sm font-medium text-gray-700">No Rekening</label>
+                    <input placeholder="8986778975" inputMode="numeric" pattern="[0-9]*" type="text" name="no_rekening" id="no_rekening" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                   </div>
 
                   <div className="col-span-6 sm:col-span-6 lg:col-span-2">
-                    <label for="city" className="block text-sm font-medium text-gray-700">Nama Pemilik Rekening</label>
-                    <input type="text" name="city" id="city" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                    <label for="pemilik_rekening" className="block text-sm font-medium text-gray-700">Nama Pemilik Rekening</label>
+                    <input placeholder="Jhon Chena" type="text" name="pemilik_rekening" id="pemilik_rekening" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                   </div>
 
                   <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                    <label for="state" className="block text-sm font-medium text-gray-700">No WhatsApp (WA)</label>
-                    <input type="text" name="state" id="state" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                    <label for="no_wa" className="block text-sm font-medium text-gray-700">No WhatsApp (WA)</label>
+                    <input placeholder="083813360366" type="text" name="no_wa" id="no_wa" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                   </div>
 
                   <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                    <label for="state" className="block text-sm font-medium text-gray-700">Nama Pengirim</label>
-                    <input type="text" name="state" id="state" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                    <label for="nama_pengirim" className="block text-sm font-medium text-gray-700">Nama Pengirim</label>
+                    <input placeholder="Donald Trump" type="text" name="nama_pengirim" id="nama_pengirim" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-3 lg:col-span-2">
+                    <label for="nominal" className="block text-sm font-medium text-gray-700">Nominal Transfer</label>
+                    <input placeholder="7500000" type="number" inputMode="numeric" name="nominal" id="nominal" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                   </div>
                 </div>
               </div>
